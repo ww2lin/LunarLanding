@@ -1,6 +1,3 @@
-Name: Wen Wei Lin
-Student id: 20373858
-
 This is a simple Lunar landing game
 
 to build the game in the console type :"make run" in the directory of the game cpp file
