@@ -30,3 +30,7 @@ In the extra mode there contains:
 	caught in the explosion also blows up.
 
 	limited vision - in the extra mode the user can only see a limited surrounding.
+
+![Image of normal game](https://github.com/ww2lin/LunarLanding/blob/master/images/1.png)
+![Image of extra game](https://github.com/ww2lin/LunarLanding/blob/master/images/2.png)
+![Image of extra game](https://github.com/ww2lin/LunarLanding/blob/master/images/3.png)
