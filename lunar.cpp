@@ -7,6 +7,7 @@
 #include <stdbool.h>
 #include <math.h>
 #include <stdio.h>
+#include <unistd.h>
 #include "lunar.h"
 /*
  * Header files for X functions
@@ -81,7 +82,7 @@ void initX(int argc, char* argv[], XInfo& xinfo) {
     XMapRaised( xinfo.display, xinfo.window );
 
 	XFlush(xinfo.display);
-	sleep(2);	// let server get set up before sending drawing commands
+	usleep(2);	// let server get set up before sending drawing commands
 }
 
 void toggleExtraMode(XInfo& xinfo){
